@@ -1,0 +1,15 @@
+<!--pages/sell/sell.wxml-->
+<view class="container">
+    <!-- 博客头部  -->
+    <view class="blog-header">
+      <view class="blog-publish" bindtap="onPublish">
+        <i class="iconfont icon-fabu"></i>
+      </view>
+      <view class="blog-search" >
+        <x-search 
+        bind:search="goSearch"
+        bind:confirmSearch="goSearch"
+         />
+      </view>
+    </view>
+</view>

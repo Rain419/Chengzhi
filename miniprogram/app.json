@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/sale",
+    "pages/logs/logs",
+    "pages/sell/sell",
+    "pages/profile/profile"
+  ], "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
+  "window": {
+    "backgroundColor": "#71b3ff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1461b9",
+    "navigationBarTitleText": "甜豆君",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#71b3ff",
+    "list": [{
+      "pagePath": "pages/index/sale",
+      "text": "走进江华",
+      "iconPath": "images/love.png",
+      "selectedIconPath": "images/love-active.png"
+    },
+   {
+      "pagePath": "pages/logs/logs",
+      "text": "长鼓舞小游戏",
+      "iconPath": "images/blog.png",
+      "selectedIconPath": "images/blog-active.png"
+    },{
+      "pagePath": "pages/sell/sell",
+      "text": "文创商城",
+      "iconPath": "images/sell.png",
+      "selectedIconPath": "images/sell-active.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心",
+      "iconPath": "images/me.png",
+      "selectedIconPath": "images/me-active.png"
+    }]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

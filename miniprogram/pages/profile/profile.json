@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-global-music": "/components/profile/profile"
+  },
+  "navigationBarTitleText": "江华承志文创平台"
+}
